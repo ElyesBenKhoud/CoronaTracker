@@ -11,7 +11,7 @@ const AllCountryData = ({props}) => {
        <table>
            <thead>
                <tr>
-                    <th>Country</th>
+                    <th>Countries</th>
                </tr>
            </thead>
            <tbody>
