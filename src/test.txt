@@ -1,0 +1,18 @@
+<>
+        <table>
+            <tr>
+                <th>Confirmed</th>
+                <th>Deaths</th>
+                <th>ActiveCases</th>
+                <th>Recovered</th>
+                <th>NewCases</th>
+            </tr>
+            <tr>
+                <td>{ totalConfirmed }</td>
+                <td>{ totalDeaths }</td>
+                <td>{ totalActiveCases }</td>
+                <td>{ totalRecovered }</td>
+                <td>{ totalNewCases }</td>
+            </tr>
+        </table>
+        </>

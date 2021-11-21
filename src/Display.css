@@ -1,0 +1,243 @@
+@media (min-width: 321px) {
+    padding: 8px;
+}
+
+@media (min-width: 768px) {
+    padding: 16px;
+}
+
+.heading__style {
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 70%;
+    margin-left: 19%;
+    margin: 0 auto;
+    @media (min-width: 1024px) {
+        padding: 24px;
+        max-width: 1280px;
+    }
+}
+
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: #5ec4af;
+    box-shadow: 0px 0px 16px 2px #7c6a74;
+    border-bottom: solid 1px #5ec4af;
+}
+
+.header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 5px;
+    height: 45px;
+    width: 50px;
+    border-radius: 10px;
+    border: dashed;
+}
+
+.logoName {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    @media (max-width: 320px) {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 50px;
+    }
+}
+
+.currentLocation-status {
+    width: 70%;
+    margin-left: 13%;
+    display: block;
+    /* border: solid red 1px; */
+    /* margin: 24px 24px 0 24px; */
+    box-sizing: content-box;
+    /* box-shadow: 0px 0px 6px 0px red; */
+    border-radius: 15px;
+    background-color: #b3b9ba4a;
+    min-height: 126px;
+    box-shadow: 0px 0px 6px 0px #704444;
+}
+
+.status-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.status {
+    /* border: solid red 1px; */
+    background-color: #b3b9ba4a;
+    margin: 24px 24px 0 24px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 16px 0px #704444;
+    /* box-shadow: 0px 0px 6px 0px red; */
+    border-radius: 15px;
+}
+
+.contryLabel {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.detailLabel {
+    margin-top: 20px;
+    min-width: 90px;
+}
+
+.detailValue {
+    margin-top: 5px;
+    min-width: 70px;
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.detailValueRecovered {
+    margin-top: 5px;
+    min-width: 70px;
+    color: green;
+    font-weight: 700;
+}
+
+.country-label {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contryDetails {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.confirmedDetails {
+    font-size: 16px;
+    /* min-width: 230px; */
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.confirmedDetails:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.confirmed-value {
+    color: red;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.conf-value {
+    color: #ea4c89;
+}
+
+.active-value {
+    color: #1e90ff;
+}
+
+.new-value {
+    color: red;
+}
+
+.deaths-value {
+    color: #95a5a6;
+}
+
+.critical-value {
+    color: #9059ff;
+}
+
+.recovered-value {
+    color: green;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.f_container {
+    background-color: #9edfd2;
+    box-shadow: 0px 0px 16px 0px #7c6a73;
+    border-top: solid 1px #9edfd2;
+    bottom: 0;
+    height: 56px;
+    width: 100%;
+    border-radius: 11px;
+    margin: 0 auto;
+}
+
+.social_logo {
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+}
+
+
+/* body {
+    background-color: #b4f2e1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.currentLocation-status {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+} */
